@@ -39,6 +39,8 @@ class TableViewController: UITableViewController {
         if NSFileManager.defaultManager().fileExistsAtPath(filePath)
         {
             listaConsulta = NSArray(contentsOfFile: filePath)!
+        }else{
+            listaConsulta = [rep,rep,rep]
         }
         
         
