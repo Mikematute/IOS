@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Consulta" syncable="YES">
+        <attribute name="comidas" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ejercicio" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idHorario" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lunch" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="socio" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Horario" syncable="YES">
+        <attribute name="act1" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="act2" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="despertar" attributeType="Date" syncable="YES"/>
+        <attribute name="dormir" attributeType="Date" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Horario" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Consulta" positionX="-54" positionY="27" width="128" height="120"/>
+    </elements>
+</model>
